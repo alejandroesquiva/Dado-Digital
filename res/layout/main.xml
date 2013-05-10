@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" android:background="@drawable/fondopantalla">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="a14f9163f749660"
+            ads:loadAdOnCreate="true"
+            ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" >
+        </com.google.ads.AdView>
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.00"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:text="Elegir Número Dados:" android:textColor="#000000"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#d1dce3"
+            android:gravity="fill_vertical"
+            android:tag="@string/app_name"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.00"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/bregistro"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.00"
+            android:src="@drawable/bregistro" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"        
+        android:orientation="vertical" android:gravity="center_vertical" android:layout_gravity="center_vertical">
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btirar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51"
+        android:src="@drawable/btirardados" />
+    
+</LinearLayout>

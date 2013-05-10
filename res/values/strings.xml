@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dados</string>
+    <string name="acerdade">Acerca de...</string>
+    <string name="salir">Salir</string>
+    <string name="registro">Registro Tiradas</string>
+    <string name="hora">Hora</string>
+    <string name="undado">Un Dado</string>
+    <string name="dosdados">Dos Dados</string>
+    <string name="tresdados">Tres Dados</string>
+    <string name="cuatrodados">Cuatro Dados</string>
+    <string name="cincodados">Cinco Dados</string>
+    <string name="seisdados">Seis Dados</string>
+    <string name="registrodetiradas">Registro De Tiradas</string>
+    <string name="elegirnumerodados">Elegir Número Dados:</string>
+    <string name="tirada">Tirada</string>
+    <string name="registrovacio">El Registro Esta Vacio</string>
+
+</resources>
